@@ -1,0 +1,202 @@
+.bg-dark {
+  background-color: #1e1c1d !important;
+}
+
+.bo-dark {
+  border-color: #1e1c1d !important;
+}
+
+.fg-dark {
+  color: #1e1c1d !important;
+}
+
+.bg-grey {
+  background-color: #909191 !important;
+}
+
+.bo-grey {
+  border-color: #909191 !important;
+}
+
+.fg-grey {
+  color: #909191 !important;
+}
+
+.bg-pink {
+  background-color: #ea4c89 !important;
+}
+
+.bo-pink {
+  border-color: #ea4c89 !important;
+}
+
+.fg-pink {
+  color: #ea4c89 !important;
+}
+
+.bg-snow {
+  background-color: #ffffff !important;
+}
+
+.bo-snow {
+  border-color: #ffffff !important;
+}
+
+.fg-snow {
+  color: #ffffff !important;
+}
+
+@font-face {
+  font-family: "Hallo Sans";
+  src: url("../fonts/hallo-sans.eot");
+  src: url("../fonts/hallo-sans.eot?#iefix") format("embedded-opentype"), url("../fonts/hallo-sans.woff") format("woff"), url("../fonts/hallo-sans.ttf") format("truetype"), url("../fonts/hallo-sans.svg#Hallo Sans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  background-image: url(../img/icons.svg);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.icon-dribbble {
+  background-position: 0 0;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-dribbble:hover {
+  background-position: 0 -32px;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-envelope {
+  background-position: 0 -64px;
+  width: 32px;
+  height: 33px;
+}
+
+.icon-envelope:hover {
+  background-position: 0 -97px;
+  width: 32px;
+  height: 33px;
+}
+
+.icon-facebook {
+  background-position: 0 -130px;
+  width: 16px;
+  height: 31px;
+}
+
+.icon-facebook:hover {
+  background-position: 0 -161px;
+  width: 16px;
+  height: 31px;
+}
+
+.icon-twitter {
+  background-position: 0 -192px;
+  width: 32px;
+  height: 28px;
+}
+
+.icon-twitter:hover {
+  background-position: 0 -220px;
+  width: 32px;
+  height: 28px;
+}
+
+.icon-wrapper {
+  padding: 20px 0;
+}
+
+.icon-wrapper .icon {
+  margin: 0 auto;
+}
+
+.dribbble-shot {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h2 {
+  margin-top: 0;
+}
+
+header {
+  background-image: url('../img/header-dazzle.png');
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-message {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.header-message a {
+  border: solid 2px #000;
+  padding: 5px 25px;
+  text-transform: lowercase;
+}
+
+.header-message a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.header-message a:first-of-type:hover {
+  background: #1e1c1d;
+}
+
+.header-message a:last-of-type:hover {
+  background: #ea4c89;
+}
+
+.header-message p:first-of-type {
+  font-size: 96px;
+  line-height: 1;
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.header-message p {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+img:not(.header-logo) {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section p {
+  margin-bottom: 30px;
+}
+
+section.bg-snow ~ section.bg-snow {
+  margin-top: -30px;
+  padding-top: 0;
+}
+
+.team-member .name {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.team-member .position {
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
