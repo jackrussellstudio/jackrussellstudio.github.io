@@ -120,6 +120,10 @@
   margin-bottom: 20px;
 }
 
+body {
+  text-rendering: geometricPrecision;
+}
+
 h1 {
   margin: 30px 0;
   text-align: center;
